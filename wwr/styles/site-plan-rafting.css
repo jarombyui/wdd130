@@ -1,1 +1,59 @@
-@import url(https://coolors.co/242038-725ac1-8d86c9-cac4ce-f7ece1);
+@import url(https://fonts.google.com/?sort=alpha);
+:root {
+    --primary-color:#242038;
+    --secondary-color:#725AC1;
+    --accent1-color: #8D86C9;
+    --accent2-color: #CAC4CE;
+    
+
+    --heading-font: font-family:'Krub', sans-serif;
+    --paragraph-font: font-family: 'Playfair Display', serif;
+
+    --nav-background-color:#242038;
+    --nav-link-color:#725AC1;
+    --nav-hover-link-color: #8D86C9;
+    --nav-hover-background-color: #CAC4CE;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: ver(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+nav a:link, nav a:visited {
+    color:var(--nav-hover-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
