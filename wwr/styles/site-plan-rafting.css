@@ -15,6 +15,7 @@
     --nav-hover-background-color: #CAC4CE;
 }
 
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -57,3 +58,4 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
