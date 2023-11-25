@@ -1,0 +1,95 @@
+@import url("https://fonts.google.com/?sort=alpha");
+
+
+:root {
+    --primary-color:#242038;
+    --secondary-color:#725AC1;
+    --accent1-color: #8D86C9;
+    --accent2-color: #CAC4CE;
+
+    --heading-font: font-family:'Krub', sans-serif;
+    --paragraph-font: font-family: 'Playfair Display', serif;
+
+    --nav-background-color:#242038;
+    --nav-link-color:#725AC1;
+    --nav-hover-link-color: #8D86C9;
+    --nav-hover-background-color: #CAC4CE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+      
+}
+
+
+
+.logo {
+    opacity:calc(.7);
+    width: 11%;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 50px;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    pad: 1rem ;
+    border-color: #725AC1;
+    color: aqua ;
+
+}
+
+.box1 {
+    margin: 10rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    pad: 10rem ;
+    border-color: #f9f9fa;
+    color: aqua ;
+    position: absolute ;
+    top:110px ;
+    bottom:0px ;
+}
+
+.presentation {
+    position: absolute;
+    top: 180px;
+    bottom: 10px;
+}
+
+.principal_fond {
+    width: 100%;
+}
+
+.customer {
+    width: 20%;
+    margin: 110px;
+    position: relative;
+    bottom: 180px;
+    float: right;
+}
+
+.introduction {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(207, 203, 199);
+}
+
+.Title {
+    text-align: center;
+    color: #CAC4CE;
+    top: 50%;
+    position: relative;
+    bottom: 310px;
+}
+
+.image_order {
+    float: left;
+}
