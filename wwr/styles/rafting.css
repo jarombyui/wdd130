@@ -123,7 +123,7 @@ nav a {
 }
 
 .image_order img {
-    width: 270px;
+    width: 250px;
 }
 
 main {
@@ -140,11 +140,12 @@ main {
     float: right;
     bottom: 130px;
     margin: 60px;
+    
  }
 
  footer p {
     margin-top: 10px;
-    
+
  }
 
  .copyright {
