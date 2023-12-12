@@ -162,4 +162,194 @@ main {
     margin-left: 35%;
  }
 
- 
+ @import url("https://fonts.google.com/?sort=alpha");
+
+
+:root {
+    --primary-color:#242038;
+    --secondary-color:#725AC1;
+    --accent1-color: #8D86C9;
+    --accent2-color: #CAC4CE;
+
+    --heading-font: font-family:'Krub', sans-serif;
+    --paragraph-font: font-family: 'Playfair Display', serif;
+
+    --nav-background-color:#242038;
+    --nav-link-color:#725AC1;
+    --nav-hover-link-color: #8D86C9;
+    --nav-hover-background-color: #CAC4CE;
+}
+
+* {
+    margin: 10px 10px 10px 10px ;
+    
+}
+
+
+.logo {
+    opacity:calc(.7);
+    width: 200px;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 50px;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    pad: 1rem ;
+    border-color: #725AC1;
+    color: aqua ;
+
+}
+
+.box1 {
+    margin: 10rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    pad: 10rem ;
+    border-color: #f9f9fa;
+    color: aqua ;
+    position: absolute ;
+    top:110px ;
+    bottom:0px ;
+}
+
+.presentation {
+    position: absolute;
+    top: 180px;
+    bottom: 10px;
+}
+
+.principal_fond {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.customer {
+    width: 20%;
+    margin: 110px;
+    position: relative;
+    bottom: 180px;
+    float: right;
+}
+
+.introduction {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(207, 203, 199);
+    margin-left: 90px;
+}
+
+.Title {
+    font-size: 150%;
+    color: #efecf0;
+    top: 50%;
+    text-align: center;text-align: center;
+    position: relative;
+    bottom: 350px;
+}
+
+.Title {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.image_order {
+    float: left;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr ;
+}
+
+header nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav a {
+    font-size: 130%;
+    text-decoration: none;
+}
+
+.image_order div {
+    display: flex;
+    align-items: center;
+}
+
+.image_order img {
+    width: 250px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+ .sociallinks {
+    position: relative;
+    float: right;
+    bottom: 130px;
+    margin: 60px;
+    
+ }
+
+ footer p {
+    margin-top: 8px;
+
+ }
+
+ .copyright {
+    font-size: 18px;
+ }
+
+ .adventure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .copyright {
+    margin-left: 35%;
+ }
+
+  /*TRIP SELECTORS*/
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    height: 100px;
+}
+
+
+/*HOME SELECTORS */
+
+.home img {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+main h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #17064f;
+    
+}
+
+.aditional {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
