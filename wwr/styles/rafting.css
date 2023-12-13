@@ -331,7 +331,7 @@ main {
 .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr) ;
-    height: 100px;
+    
 }
 
 
@@ -351,5 +351,4 @@ main h1 {
 .aditional {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
 }
